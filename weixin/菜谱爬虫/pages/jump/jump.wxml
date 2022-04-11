@@ -1,0 +1,2 @@
+<!--pages/jump/jump.wxml-->
+<web-view src="{{flag}}"></web-view>

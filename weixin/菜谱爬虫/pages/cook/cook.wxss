@@ -1,0 +1,25 @@
+/* pages/cook/cook.wxss */
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.navitem{
+  width: 25%;
+  margin-top: 20px;
+  font-size: 10px;
+}
+
+.hr{
+  height: 15px;
+  background-color: #cccccc;
+  margin-top: 15px;
+  opacity: 0.2;
+}
+
+.head{
+  
+}
+

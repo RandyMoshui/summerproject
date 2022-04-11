@@ -1,0 +1,78 @@
+<!--pages/cook/cook.wxml-->
+<view class="content">
+<!-- 图片:橱窗，轮播图 --> 
+<view class="img">
+<image style="width: 100%; height: 200px;" src="https://st-cn.meishij.net/r/105/225/1306355/a1306355_160517555649222.jpg"></image>
+</view>
+
+
+<!-- 顶部导航 -->
+
+<view class="nav">
+  <view class="navitem">
+  <view>
+  <navigator url="../home_cookie/home_cookie" open-type="navigate" hover-class="navigator-hovor">
+  <image style="width: 25px;height: 25px;" src="https://img2.baidu.com/it/u=1840369615,3639586520&fm=26&fmt=auto&gp=0.jpg" alt=""></image>
+  <view>家常菜谱</view>
+  </navigator>
+  </view>
+  </view>
+  <view class="navitem">
+  <view>
+  <navigator url="../china_cookie/china_cookie" open-type="navigate" hover-class="navigator-hovor">
+  <image style="width: 25px;height: 25px;" src="https://img1.baidu.com/it/u=3282476204,2389238727&fm=26&fmt=auto&gp=0.jpg" alt=""></image>
+  <view>中华菜系</view>
+  </navigator>
+  </view>
+  </view>
+  <view class="navitem">
+  <view>
+  <navigator url="../snack/snack" open-type="navigate" hover-class="navigator-hovor">
+  <image style="width: 25px;height: 25px;" src="https://img0.baidu.com/it/u=2371044935,2010405665&fm=15&fmt=auto&gp=0.jpg" alt=""></image>
+  <view>各地小吃</view>
+  </navigator>
+  </view>
+  </view>
+  <view class="navitem">
+  <view>
+  <navigator url="../foreign_cookie/foreign_cookie" open-type="navigate" hover-class="navigator-hovor">
+  <image style="width: 25px;height: 25px;" src="https://img2.baidu.com/it/u=2729919936,1039232864&fm=26&fmt=auto&gp=0.jpg" alt=""></image>
+  <view>外国菜谱</view>
+  </navigator>
+  </view>
+  </view>
+  
+</view>
+
+<!-- 分割线 -->
+<view class="hr">
+
+
+</view>
+
+<!-- 列表头部-->
+<view class="head">
+<view style="align-items: center;">热门推荐</view>
+<view class="hoting" flex-direction:column>
+<view style="display:flex; flex-wrap:wrap; flex-content:center; items-align:center;">
+  <image style="width:150px;height: 150px;vertical-align: middle;margin: auto;"  src="https://st-cn.meishij.net/r/10/120/30010/a30010_162924400622348.jpg"></image>
+</view>
+<view style="display:flex; flex-wrap:wrap; flex-content:center; items-align:center;">
+  <image style="width:150px;height: 150px;vertical-align: middle;margin: auto;"  src="https://st-cn.meishij.net/r/241/24/818741/a818741_162895286063202.jpg"></image>
+</view>
+<view style="display:flex; flex-wrap:wrap; flex-content:center; items-align:center;">
+  <image style="width:150px;height: 150px;vertical-align: middle;margin: auto;"  src="https://st-cn.meishij.net/r/10/205/5176260/a5176260_162927524575911.jpg"></image>
+</view>
+
+</view>
+</view>
+
+<!-- 列表 -->
+<!-- 使用模板文件循环产生当前内容-->
+<import src='/templates/cook_template.wxml'>
+<template is="cook" data="{{array}}"></template>
+</import>
+
+
+
+</view>

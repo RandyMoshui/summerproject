@@ -1,0 +1,8 @@
+/* pages/foreign_cookie/foreign_cookie.wxss */
+page{
+  background-color:bisque;
+}
+button{
+  background-color: bisque;
+  border-radius: 5px;
+}

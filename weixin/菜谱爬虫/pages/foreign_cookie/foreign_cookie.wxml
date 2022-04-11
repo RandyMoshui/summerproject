@@ -1,0 +1,5 @@
+<!--pages/foreign_cookie/foreign_cookie.wxml-->
+
+<view open-type="navigate" hover-class="navigator-hovor" wx:for="{{list}}" wx:for-index="idx" wx:for-item="cookie">
+  <button bindtap="go" data-flag="{{cookie.href}}">{{cookie.title}}</button>
+</view>

@@ -1,0 +1,8 @@
+/* pages/china_cookie/china_cookie.wxss */
+page{
+  background-color:bisque;
+}
+button{
+  background-color: bisque;
+  border-radius: 5px;
+}
